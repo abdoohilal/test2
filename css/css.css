@@ -1,0 +1,90 @@
+.container {
+    margin-top: 2px;
+    background-image: linear-gradient(to right, #2b9ab6de, #49eeeeab);
+    border-radius: 7px;
+    box-shadow: 0 0 35px rgb(0,0,0,0.5);
+    width: 600px;
+    height: 650px;
+
+    }
+   .text{
+    padding-top: 4px;
+    padding-bottom: 5px;
+   }
+    .form-control {
+    border-radius: 5px;
+    border: 2px solid #f1d7d7;
+    }
+    
+    .form-control:focus {
+    border-color: #580ead;
+    box-shadow: 0 0 0 0.2rem rgba(4, 195, 202, 0.781);
+    }
+    
+    #submit-button {
+    margin-top: 10px;
+    }
+    
+#submit-button{
+    margin-bottom: 20px;
+    margin-top: 10px    ;
+    width: 50%;
+    border-radius: 5px;
+    background-color:#2b9ab6de;
+    padding: 10px;
+    text-align:center;
+    margin-left: 130px;
+
+}
+
+.form-control{
+    direction:rtl;
+
+}
+#submit-button:hover{
+    background-image: linear-gradient(to left, #52459cde, #12355fe8 );
+    border: 1px #580ead;
+    color: #f1d7d7;
+}
+.form-group {
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+input[type='text'] {
+    text-align: center;
+    border: 1px solid #ced4da;
+    padding: 7px;
+    margin-left: 80px;
+    width: 70%;
+}
+
+.rdio>input {
+    text-align: center;
+    width: 60px; 
+
+}
+.rdio{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+@media (max-width: 600px) {
+    .container{
+        width: 380px;
+        text-align: center;
+        height: 700px;
+
+    }
+    #submit-button{
+        width: 35%;
+        text-align: center;
+        margin-right: 150px;
+    }
+    .form-group{
+        margin-right: 60px;
+    }
+    .rdio{
+        margin-left: -50px;
+    }
+}
